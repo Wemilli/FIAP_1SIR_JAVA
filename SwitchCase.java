@@ -8,7 +8,7 @@ public class SwitchCase {
        int mes;
        System.out.print("Digite o número do mês: ");
        mes = input.nextInt();
-        
+        //Só funciona para igualdade
        switch (mes){
            case 1:
                System.out.println("Janeiro");
